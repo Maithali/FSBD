@@ -13,3 +13,8 @@
 ![](./Images/Article.PNG)
 [Aside](./Aside.html)
 ![aside](./Images/aside.PNG)
+[Audio](./Audio.html)
+![Audio](./Images/Audio.PNG)
+[Base](./Base.html)
+[Bdi](./Bdi.html)
+![bdi](./Images/Bdi.PNG)
