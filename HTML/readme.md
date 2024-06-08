@@ -2,5 +2,10 @@
 
 ## getting familar with html
 
+[first.html](./first.html)
 ![first](./Images/first.PNG)
-![Anchor](./Images/)
+[Anchor.html](./Anchor.html)
+![Anchor](./Images/Anchor.PNG)
+[Abbreviation](./Abbreviation.html)
+[address](./Address.html)
+![Address](./Images/address.PNG)
