@@ -2,12 +2,8 @@
 
 ## HTML
 
-||| BASIC TAGS OF HTML |||
-|---||---||---||---|
-|[first](./HTML/first.html)|
-|[first](./HTML/)|
-|[first](./HTML/)|
-|[first](./HTML/)|
+BASIC TAGS OF HTML
+|[All HTML Files](./HTML/readme.md)|
 
 ## PROJECTS
 
