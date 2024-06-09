@@ -18,3 +18,7 @@
 [Base](./Base.html)
 [Bdi](./Bdi.html)
 ![bdi](./Images/Bdi.PNG)
+[Blockquote](./blockquote.html)
+![Blockcquote](./Images/blockquote.PNG)
+[body](./body.html)
+![body](./Images/body.PNG)
