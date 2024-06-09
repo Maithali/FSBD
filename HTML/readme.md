@@ -2,6 +2,10 @@
 
 ## getting familar with html
 
+[fieldset](./fieldset.html)
+![filedset](./Images/fieldset.PNG)
+[em](./em.html)
+![em](./Images/em.PNG)
 [first.html](./first.html)
 ![first](./Images/first.PNG)
 [Anchor.html](./Anchor.html)
