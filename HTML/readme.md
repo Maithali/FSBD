@@ -25,3 +25,7 @@
 [Break](./break.html)
 [Button](./Button.html)
 ![button](./Images/button.PNG)
+[caption](./caption.html)
+![caption](./Images/caption.PNG)
+[cite](./citation.html)
+![cite](./Images/cite.PNG)
