@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[list](./list.html)
+![list](./Images/list.PNG)
 [Label](./label.html)
 [input](./input.html)
 ![input](./Images/input.PNG)
