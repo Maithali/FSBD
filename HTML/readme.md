@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[input](./input.html)
+![input](./Images/input.PNG)
 [img](./img.html)
 ![image](./Images/img.PNG)
 [iframe](./iframe.html)
