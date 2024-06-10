@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[head](./head.html)
+[idiomatic](./i.html)
 [Form](./form.html)
 ![form](./Images/form.PNG)
 [footer](./footer.html)
