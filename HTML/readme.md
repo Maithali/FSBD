@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[Form](./form.html)
+![form](./Images/form.PNG)
 [footer](./footer.html)
 ![footer](./Images/footer.PNG)
 [fieldset](./fieldset.html)
