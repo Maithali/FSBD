@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[img](./img.html)
+![image](./Images/img.PNG)
 [iframe](./iframe.html)
 ![iframe](./Images/iframe.PNG)
 [head](./head.html)
