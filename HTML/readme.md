@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[footer](./footer.html)
+![footer](./Images/footer.PNG)
 [fieldset](./fieldset.html)
 ![filedset](./Images/fieldset.PNG)
 [em](./em.html)
