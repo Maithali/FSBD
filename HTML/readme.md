@@ -2,6 +2,7 @@
 
 ## getting familar with html
 
+[Label](./label.html)
 [input](./input.html)
 ![input](./Images/input.PNG)
 [img](./img.html)
