@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[Table](./table.html)
+![table](./Images/table.PNG)
 [Summary](./summary.html)
 ![summary](./Images/summ.PNG)
 [strikethrough](./strikethrough.html)
