@@ -3,6 +3,7 @@
 ## getting familar with html
 
 [Meta](./meta.html)
+![meta](./Images/meta.PNG)
 [mark](./mark.html)
 [list](./list.html)
 ![list](./Images/list.PNG)
