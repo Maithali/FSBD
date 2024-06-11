@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[Meter](./meter.html)
+![meter](./Images/meter.PNG)
 [Meta](./meta.html)
 ![meta](./Images/meta.PNG)
 [mark](./mark.html)
