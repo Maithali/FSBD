@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[Pre](./pre.html)
+![pre](./Images/pre.PNG)
 [Option](./option.html)
 [OptGroup](./optGroup.html)
 [Nav](./nav.html)
