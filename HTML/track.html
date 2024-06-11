@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Embed Text Track element</title>
+</head>
+<style>
+    video {
+  width: 450px;
+}
+
+video::cue {
+  font-size: 1rem;
+}
+
+</style>
+<body>
+    <h1>The Embed Text Track element</h1>
+    <p>The
+    <track> HTML element is used as a child of the media elements,<br>
+     <mark>audio</mark>  and <mark>Video</mark> It lets you specify timed text
+            tracks (or time-based data),<br>
+             for example to automatically handle subtitles. The tracks are formatted in WebVTT
+            format (.vtt files) — Web Video Text Tracks.</p>
+            <video controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
+                <track default kind="captions" srclang="en" src="/media/examples/friday.vtt" />
+                Download the
+                <a href="/media/cc0-videos/friday.mp4">MP4</a>
+                video, and
+                <a href="/media/examples/friday.vtt">subtitles</a>.
+            </video>
+
+</body>
+</html>
