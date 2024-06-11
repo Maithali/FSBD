@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[strikethrough](./strikethrough.html)
+![strikthrough](./Images/strike.PNG)
 [Pre](./pre.html)
 ![pre](./Images/pre.PNG)
 [Option](./option.html)
