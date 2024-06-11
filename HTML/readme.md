@@ -2,6 +2,7 @@
 
 ## getting familar with html
 
+[OptGroup](./optGroup.html)
 [Nav](./nav.html)
 ![nav](./Images/nav.PNG)
 [Meter](./meter.html)
