@@ -2,6 +2,8 @@
 
 ## getting familar with html
 
+[Nav](./nav.html)
+![nav](./Images/nav.PNG)
 [Meter](./meter.html)
 ![meter](./Images/meter.PNG)
 [Meta](./meta.html)
