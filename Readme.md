@@ -10,7 +10,3 @@ BASIC TAGS OF HTML
 | Project                                      |
 | -------------------------------------------- |
 | [Test-site](./Projects/test-site/index.html) |
-| [first](./HTML/)                             |
-| [first](./HTML/)                             |
-| [first](./HTML/)                             |
-| [first](./HTML/)                             |
