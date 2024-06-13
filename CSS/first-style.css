@@ -1,0 +1,53 @@
+/* styling the element */
+h1 {
+    color: red;
+}
+p,
+li {
+    color: green;
+}
+
+li{
+    list-style-type:square;
+}
+/* styling class */
+.special{
+    color: orange;
+    font-weight: bold;
+}
+
+/* descendant combinator */
+li em {
+    color: rebeccapurple;
+}
+
+/* next sibling combinator */
+h1+p {
+    font-size: 200%;
+}
+
+/* styling a */
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color:mediumvioletred
+}
+
+a:hover{
+    color:chartreuse ;
+    text-decoration: none;
+}
+
+a:focus{
+    color: blueviolet;
+
+}
+/* multiple selectors and combinator */
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
