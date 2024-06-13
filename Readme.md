@@ -7,6 +7,6 @@ BASIC TAGS OF HTML
 
 ## PROJECTS
 
-| Project                                      |
-| -------------------------------------------- |
-| [Test-site](./Projects/test-site/index.html) |
+| Project                                     |
+| ------------------------------------------- |
+| [Test-site](./Projects/test-site/readme.md) |
