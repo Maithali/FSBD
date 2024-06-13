@@ -7,9 +7,10 @@ BASIC TAGS OF HTML
 
 ## PROJECTS
 
-||| All projects |||
-|---||---||---||---|
-|[Test-site](./Projects/test-site/index.html)|
-|[first](./HTML/)|
-|[first](./HTML/)|
-|[first](./HTML/)|
+| Project                                      |
+| -------------------------------------------- |
+| [Test-site](./Projects/test-site/index.html) |
+| [first](./HTML/)                             |
+| [first](./HTML/)                             |
+| [first](./HTML/)                             |
+| [first](./HTML/)                             |
