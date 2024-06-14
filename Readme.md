@@ -5,6 +5,11 @@
 BASIC TAGS OF HTML
 |[All HTML Files](./HTML/readme.md)|
 
+## CSS
+
+CSS styling
+|[CSS Files](./CSS/readme.md)|
+
 ## PROJECTS
 
 | Project                           |
