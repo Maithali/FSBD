@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning css</title>
+</head>
+<style>
+   
+
+    p{
+        color: aqua;
+    }
+    form:focus-within {
+  background: #ff7300;
+  color: hsl(0, 92%, 19%);
+  padding: 10px;
+}
+#action{
+     background-color: #161515;
+    color: #ed2828;
+    text-align: center;
+
+}
+
+</style>
+<body>
+    <p id="action">focus-within in Action!</p>
+    <p>The example code above will add a background color of orange, add some padding, and change the color of the labels to
+    black.</p>
+    <form>
+        <div>
+            <label for="firstName">First Name</label><input id="firstName" type="text">
+        </div>
+        <div>
+            <label for="lastName">Last Name</label><input id="lastName" type="text">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label><input id="phone" type="text">
+        </div>
+        <div>
+            <label for="message">Message</label><textarea id="message"></textarea>
+        </div>
+    </form>
+
+    <hr>
+    <form>
+        <h1>:focus-within part 2!</h1>
+        <label for="firstName">First Name: <input name="firstName" type="text" /></label>
+        <label for="lastName">Last Name: <input name="lastName" type="text" /></label>
+        <label for="phone">Phone number: <input type="tel" id="phone" /></label>
+        <label for="message">Message: <textarea name="message" id="message" /></textarea></label>
+    </form>
+</body>
+</html>
