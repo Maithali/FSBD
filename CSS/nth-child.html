@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning css</title>
+</head>
+<style>
+    /* Select the first list item */
+li:nth-child(1) { }
+
+/* Select the 5th list item */
+li:nth-child(5) { }
+
+/* Select every other list item starting with first */
+li:nth-child(odd) { 
+    background-color: aquamarine;
+}
+
+/* Select every 3rd list item starting with first */
+li:nth-child(3n - 2) { 
+    color: blueviolet;
+}
+
+/* Select every 3rd list item starting with 2nd */
+li:nth-child(3n - 1) { 
+    text-align: center;
+}
+
+/* Select every 3rd child item, as long as it has class "el" */
+.el:nth-child(3n) { 
+    border: 5px dotted;
+}
+
+.module:nth-child(4n) {
+  margin-right: 0;
+  color: hsl(0, 97%, 52%);
+}
+</style>
+<body>
+    <h1>nth-child list</h1>
+    <p>The :nth-child selector allows you to select one or more elements based on their source order, according to a formula.</p>
+    
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <section class="grid">
+        <article class="module">One</article>
+        <article class="module">Two</article>
+        <article class="module">Three</article>
+        <article class="module">Four</article>
+        <article class="module">Five</article>
+    </section>
+</body>
+</html>
