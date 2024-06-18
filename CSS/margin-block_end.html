@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning css</title>
+</head>
+<style>
+    div {
+  background-color: yellow;
+  width: 120px;
+  height: 120px;
+}
+
+.exampleText {
+  writing-mode: vertical-rl;
+  margin-block-end: 20px;
+  background-color: #c8c800;
+}
+
+.exampleText1 {
+    writing-mode:sideways-lr;
+    margin-block-end: 20px;
+    background-color: #f4d6af;
+}
+
+.exampleText2 {
+    writing-mode:vertical-rl;
+    margin-block-end: 20px;
+    background-color: rgb(177, 244, 175);
+}
+
+</style>
+<body>
+    <h1>margin-block-end</h1>
+    <p>The margin-block-end CSS property defines the logical block end margin of an element, which maps to a physical margin
+    depending on the element's writing mode, directionality, and text orientation.</p>
+    <div>
+        <p class="exampleText">Example text</p>
+    </div>
+
+    <div>
+        <p class="exampleText1">Example text</p>
+    </div>
+
+    <div>
+        <p class="exampleText2">Example text</p>
+    </div>
+</body>
+</html>
