@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learing CSS</title>
+</head>
+<body>
+    <!-- universal selector in css-->
+    <style>
+ /* Selects all elements */
+    * {
+     color: green;
+      }
+
+      * [lang^="en"] {
+  color: green;
+}
+
+*.warning {
+  color: red;
+}
+
+*#maincontent {
+  border: 1px solid blue;
+}
+
+.floating {
+  float: left;
+}
+
+/* automatically clear the next sibling after a floating element */
+.floating + * {
+  clear: left;
+}
+
+
+
+    </style>
+<p>The CSS universal selector (*) matches elements of any type.</p>
+<p>* { style properties }</p>
+
+<p class="warning">
+    <span lang="en-us">A green span</span> in a red paragraph.
+</p>
+<p id="maincontent" lang="en-gb">
+    <span class="warning">A red span</span> in a green paragraph.
+</p>
+
+
+</body>
+</html>
