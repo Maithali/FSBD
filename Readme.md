@@ -10,6 +10,11 @@ BASIC TAGS OF HTML
 CSS styling
 |[CSS Files](./CSS/readme.md)|
 
+## TAILWINDCSS
+
+tailwind styling
+|[CSS Files](./CSS/readme.md)|
+
 ## PROJECTS
 
 | Project                           |
