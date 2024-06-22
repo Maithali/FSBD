@@ -12,7 +12,7 @@ CSS styling
 
 ## TAILWINDCSS
 
-tailwind styling
+tailwindcss styling
 |[CSS Files](./CSS/readme.md)|
 
 ## PROJECTS
