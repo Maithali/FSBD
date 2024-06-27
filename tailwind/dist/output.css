@@ -630,6 +630,21 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-px {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-0\.5 {
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+}
+
 .ml-40 {
   margin-left: 10rem;
 }
@@ -640,6 +655,18 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.ms-px {
+  margin-inline-start: 1px;
+}
+
+.me-px {
+  margin-inline-end: 1px;
+}
+
+.me-10 {
+  margin-inline-end: 2.5rem;
 }
 
 .line-clamp-3 {
