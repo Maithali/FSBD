@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="output.css" />
     <title>Educational Purpose only</title>
   </head>
-  <body class="w-96 mx-52 bg-white shadow-lg">
+  <body class="w-96 mx-48 bg-white shadow-lg">
     <!-- meta mask wallet -->
     <div class="bg-white shadow-lg">
       <div class="flex justify-between">
@@ -33,10 +33,15 @@
       />
       <!-- mouse tracking -->
       <script>
-        let mouseXStartPoint = 250;
-        let mouseXEndPoint = window.innerWidth; //1366
+        //mouse X position
+        let mouseXStartPoint = 190;
+        let mouseXEndPoint = window.innerWidth - 790; //1366
         let currentXPosition = 0;
         let fracXValue = 0;
+        //mouse Y position
+        let mouseYEndPoint = window.innerHeight; //total height
+        let currentYPosition = 0;
+        let fracYValue = 0;
 
         let mouseXRange = mouseXEndPoint - mouseXStartPoint;
         const mouseMove = (event) => {
@@ -45,7 +50,12 @@
           //console.log( `x value = ${event.clientX} & y value = ${event.clientY} ` );
           currentXPosition = event.clientX - mouseXStartPoint;
           fracXValue = currentXPosition / mouseXRange;
-          console.log(fracXValue);
+          console.log("X =" + fracXValue);
+
+          // geetings values for Y
+          currentYPosition = event.clientY - mouseXStartPoint;
+          fracYValue = currentYPosition / mouseYEndPoint;
+          console.log("Y =" + fracYValue);
         };
         window.addEventListener("mousemove", mouseMove);
       </script>
