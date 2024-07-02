@@ -30,4 +30,11 @@ console.log(`my current first name is
     console.log(x1 * y);
     console.log(x1 / y);
     console.log(x1 % y);
+
+    //comparision op
+    let abc = 10;
+    let cde = '10';
+    console.log(abc >= cde);
+    console.log(abc <= cde);
+    console.log(abc > cde);
  
