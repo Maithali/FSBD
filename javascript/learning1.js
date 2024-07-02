@@ -37,4 +37,18 @@ console.log(`my current first name is
     console.log(abc >= cde);
     console.log(abc <= cde);
     console.log(abc > cde);
+
+    // ==or===
+    console.log(abc === cde);
+
+    let Standard =3;
+    if(Standard == 1){
+        console.log("room One");
+    }else if(Standard == 2){
+        console.log("room Two");
+    }else if (Standard == 3) {
+        console.log("room Three");
+    }else{
+        console.log("Rooms not available");
+    }
  
