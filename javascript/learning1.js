@@ -18,11 +18,16 @@ console.log(`my current first name is
     ${mobileno}`);
 
 //assignment operator
-let x1 = 11;
-let y = 10;
+    let x1 = 11;
+    let y = 10;
 
 // arthimatic Operator
 // +,-,*,/,%
-let z1 = x1 + y;
-console.log(z1);
-console.log(x1 + y);
+        let z1 = x1 + y;
+    console.log(z1);
+    console.log(x1 + y);
+    console.log(x1 - y);
+    console.log(x1 * y);
+    console.log(x1 / y);
+    console.log(x1 % y);
+ 
