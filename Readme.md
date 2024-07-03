@@ -15,6 +15,11 @@ CSS styling
 tailwindcss styling
 |[CSS Files](./CSS/readme.md)|
 
+## SOLIDITY
+
+Example Contract
+|[contracts](./CSS/readme.md)|
+
 ## PROJECTS
 
 | Project                           |
