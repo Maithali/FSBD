@@ -35,3 +35,16 @@
     let name1 = ['Maithali','Sanjeevan','Navin','Anurag','Hitesh','Patrick','Hyder'];
     console.log(name1);
     console.log(name1[6]);
+    console.log(name1[4]);
+
+    //Object
+
+    let bankaccount = {
+        firstName:'Maithali',
+        LastName:'Gharde',
+        mobileno: 8546789231,
+        balance: 1009000000,
+    };
+    console.log(bankaccount);
+    console.log(bankaccount.balance);
+    console.log(bankaccount.firstName);
