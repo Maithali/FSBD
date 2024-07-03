@@ -29,4 +29,9 @@
     // Ternary Opertor / Ternanry Condition
     // Condition ? True : Flase
     let userlogin = false;
-    userlogin ? console.log('logout') : console.log('login');;
+    userlogin ? console.log('logout') : console.log('login');
+
+    //Array
+    let name1 = ['Maithali','Sanjeevan','Navin','Anurag','Hitesh','Patrick','Hyder'];
+    console.log(name1);
+    console.log(name1[6]);
