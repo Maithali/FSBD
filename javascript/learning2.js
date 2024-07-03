@@ -60,3 +60,15 @@
     console.log(now.getTimezoneOffset());
     console.log(now.getMonth());
     console.log(now.getSeconds());
+
+    // Math
+
+    const PI = Math;
+    console.log(PI);
+    console.log(Math.round(PI));
+    console.log(Math.round(9.4));
+    console.log(Math.floor(9.5));
+    console.log(Math.ceil(9.5));
+
+    // min and max
+    console.log(Math.min(10,20,5,3,2,4));
