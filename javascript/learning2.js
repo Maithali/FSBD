@@ -72,3 +72,28 @@
 
     // min and max
     console.log(Math.min(10,20,5,3,2,4));
+    console.log(Math.max(10,20,5,3,2,4));
+
+    // Random
+    console.log(Math.round(Math.random()* 51));
+    console.log(Math.pow(3,3));
+    console.log(Math.log(2));
+    console.log(Math.sin(90));
+
+    //loop
+
+    // let i = 10;
+    // do{
+    //     console.log('Value of i is:', i);
+    //     i++;
+    // }while(i <= 5);
+
+    let j = 6;
+    while (j <= 5) {
+        console.log('Value of j is', j);
+        j++;
+    }
+
+    for (let i = 0; i <= 10; i++) {
+    console.log(`${i} * ${i} = ${i * i}`);
+}
