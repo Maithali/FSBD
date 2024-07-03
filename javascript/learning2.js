@@ -48,3 +48,15 @@
     console.log(bankaccount);
     console.log(bankaccount.balance);
     console.log(bankaccount.firstName);
+
+    // Date 
+    const now = new Date();
+    console.log(now.toString());
+    console.log(now.getFullYear());
+    console.log(now.getDay());
+    console.log(now.getDate());
+    console.log(now.getHours());
+    console.log(now.getMilliseconds());
+    console.log(now.getTimezoneOffset());
+    console.log(now.getMonth());
+    console.log(now.getSeconds());
