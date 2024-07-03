@@ -5,18 +5,16 @@
 ![Example Contract](./output/eg1solidity.PNG)
 
 [Example Contract](./ExampleContract.sol)
-Solidity:
-type: programming
-color: "#AA6746"
-ace_mode: text
-tm_scope: source.solidity
-extensions:
 
-- ".sol"
-  language_id: 23746903
-
-````
+```javascript I'm A tab
+console.log("Code Tab A");
 ```
+
+```javascript I'm tab B
+console.log("Code Tab B");
+```
+
+```solidity I'm tab B
 contract ExampleContract {
     function getANumber() public pure returns (uint256) {
         uint256 x = 1;
@@ -42,4 +40,9 @@ contract ExampleContract {
 }
 
 ```
-````
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
