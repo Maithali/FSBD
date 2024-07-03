@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: BUSL-1.1
+pragma solidity ^0.8.13;
+
 contract ExampleContract {
     function getANumber() public pure returns (uint256) {
         uint256 x = 1;

@@ -5,6 +5,7 @@
 ![Example Contract](./output/eg1solidity.PNG)
 
 [Example Contract](./ExampleContract.sol)
+[Arithmetic](./Arithematic.sol)
 
 ```solidity I'm tab B
 contract ExampleContract {
