@@ -28,4 +28,20 @@ contract Learing {
         uint256 remainder = 10 % 4;
         return remainder;
     }
+
+    //  Subtracting, multiplying, and dividing
+    function sub(uint256 n1, uint216 n2) public pure returns (uint256) {
+        uint256 minus = n1 - n2;
+        return minus;
+    }
+
+    function multi(uint256 v1, uint256 v2) public pure returns (uint256) {
+        uint256 mul = v1 * v2;
+        return mul;
+    }
+
+    function div(uint256 dno1, uint256 dno2) public pure returns (uint256) {
+        uint256 divi = dno1 / dno2;
+        return divi;
+    }
 }
