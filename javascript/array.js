@@ -16,3 +16,10 @@
     // Push => Insert New Values inside the Array
     namess.push("Maithali");
     console.log(namess);//[ 'Name 1', 'Name 2', 'Maithali' ]
+
+    //Slice
+    let names = ['Hitesh sir','Anurag','Surya','Anirudh','Bipul'];
+    console.log(names.slice(1,6));//[ 'Anurag', 'Surya', 'Anirudh', 'Bipul' ]
+    console.log(names);//[ 'Hitesh sir', 'Anurag', 'Surya', 'Anirudh', 'Bipul' ]
+    console.log(names.slice(2,3));//[ 'Surya' ]
+    console.log(names.slice(3,6));//[ 'Anirudh', 'Bipul' ]
