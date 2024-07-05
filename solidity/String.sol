@@ -9,4 +9,10 @@ contract Example {
     function HelloWorld() public pure returns (string memory) {
         return "hello World!";
     }
+
+    function UseArray(
+        string calldata userName
+    ) public pure returns (string memory) {
+        return string.concat("Hi ", userName);
+    }
 }
