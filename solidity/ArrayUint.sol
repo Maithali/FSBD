@@ -62,4 +62,10 @@ contract Example {
         uint256 lastElement = numbers.length - 1;
         return lastElement;
     }
+    function FixedArray(
+        uint256[5] calldata value
+    ) public pure returns (uint256) {
+        uint256 last = value[4];
+        return last;
+    }
 }
