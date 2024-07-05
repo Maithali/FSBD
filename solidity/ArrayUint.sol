@@ -19,4 +19,11 @@ contract Example {
         uint256 first = input[0];
         return first;
     }
+
+    function SecondElement(
+        uint256[] calldata value
+    ) public pure returns (uint256) {
+        uint256 second = value[1];
+        return second;
+    }
 }
