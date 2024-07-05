@@ -12,4 +12,11 @@ contract Example {
     ) public pure returns (uint256[] memory) {
         return values;
     }
+
+    function ReturnFirstElement(
+        uint256[] calldata input
+    ) public pure returns (uint256) {
+        uint256 first = input[0];
+        return first;
+    }
 }
