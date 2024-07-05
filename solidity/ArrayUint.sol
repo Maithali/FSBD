@@ -26,4 +26,40 @@ contract Example {
         uint256 second = value[1];
         return second;
     }
+
+    function LengthOfAnArray(
+        uint256[] calldata value
+    ) public pure returns (uint256) {
+        uint256 len = value.length;
+        return len;
+    }
+
+    function LoopInArray(
+        uint256[] calldata value
+    ) public pure returns (uint256) {
+        uint256 product = 1;
+
+        for (uint256 i = 0; i < value.length; i++) {
+            product *= value[i];
+        }
+        return product;
+    }
+
+    function productOfarray(
+        uint256[] calldata myArray
+    ) public pure returns (uint256) {
+        uint256 product = 1;
+        for (uint256 i = 0; i < myArray.length; i++) {
+            product *= myArray[i];
+        }
+
+        return product;
+    }
+
+    function LastElementOfArray(
+        uint256[] calldata numbers
+    ) public pure returns (uint) {
+        uint256 lastElement = numbers.length - 1;
+        return lastElement;
+    }
 }
