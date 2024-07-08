@@ -19,4 +19,8 @@ contract StoargeArray {
     function getEntireArray() public view returns (uint256[] memory) {
         return myArray;
     }
+
+    function removeFromArray() public {
+        myArray.pop();
+    }
 }
