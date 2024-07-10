@@ -41,5 +41,7 @@
 // ]
 
     let myfamily = ['Granpda','Grandma','Mom','Dad'];
-    myfamilyfamily.splice(2,2, 'uncle','aunt');
-    console.log(myfamily);
+    myfamily.splice(2,2, 'uncle','aunt');
+    console.log(myfamily);//[ 'Granpda', 'Grandma', 'uncle', 'aunt' ]
+
+    
