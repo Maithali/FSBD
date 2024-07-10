@@ -11,4 +11,15 @@ contract SpecialAddress {
             balances[owner] = amount;
         }
     }
+
+    function transferTokensBetweenAddresses(
+        address sender,
+        address receiver,
+        uint256 amount
+    ) public {
+        if (msg.sender == banker) {
+            balances[sender] -= amount;
+            balances[receiver] += amount;
+        }
+    }
 }
