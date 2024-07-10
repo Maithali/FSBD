@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
+//This implementation has a flaw that anyone can invoke the public functions and send tokens between addresses willy-nilly, but we’ll fix that later.
+
 contract ERC20Token {
     mapping(address => uint256) public balances; //gives amount of the address
 
