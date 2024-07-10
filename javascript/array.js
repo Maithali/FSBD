@@ -26,3 +26,20 @@
     console.log(names.slice(1,4));//[ 'Anurag', 'Surya', 'Anirudh' ]
     console.log(names.slice(0,4));//[ 'Hitesh sir', 'Anurag', 'Surya', 'Anirudh' ]
     console.log(names.slice(0,2));//[ 'Hitesh sir', 'Anurag' ]
+
+    //Splice
+    let fruit = ['Apple','Big Apple','Chota Apple','Double Apple']
+    fruit.splice(2,1, 'Kharab apple', "Accha apple", "Red Apple");
+    console.log(fruit); 
+ //   [
+//   'Apple',
+//   'Big Apple',
+//   'Kharab apple',
+//   'Accha apple',
+//   'Red Apple',
+//   'Double Apple'
+// ]
+
+    let myfamily = ['Granpda','Grandma','Mom','Dad'];
+    myfamilyfamily.splice(2,2, 'uncle','aunt');
+    console.log(myfamily);
