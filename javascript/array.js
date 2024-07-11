@@ -97,3 +97,7 @@ console.log(includeNumber.includes(2,2));//false
 console.log(includeNumber.includes(7,1));//true
 console.log(includeNumber.includes(98,5));//false
 console.log(includeNumber.includes(6,2));//true
+
+//indexof
+let num =[1,2,3,4,'maithali',5,6,7,8,'maithali',9,10,11];
+console.log(num.indexOf('maithali'));
