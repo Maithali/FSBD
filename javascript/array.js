@@ -75,3 +75,17 @@ console.log(arr4);
 //   'maithali', 'maithali',
 //   9
 // ]
+arr4.fill('blockchain',0,9);
+console.log(arr4);
+// [
+//   'blockchain',
+//   'blockchain',
+//   'blockchain',
+//   'blockchain',
+//   'blockchain',
+//   'blockchain',
+//   'blockchain',
+//   'blockchain',
+//   'blockchain'
+// ]
+
