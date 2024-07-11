@@ -96,3 +96,4 @@ console.log(includeNumber.includes(5,5));//false
 console.log(includeNumber.includes(2,2));//false
 console.log(includeNumber.includes(7,1));//true
 console.log(includeNumber.includes(98,5));//false
+console.log(includeNumber.includes(6,2));//true
