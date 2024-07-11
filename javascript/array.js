@@ -92,3 +92,4 @@ console.log(arr4);
 //include
 let includeNumber = [1,2,3,4,5,6,7,8,9,10];
 console.log(includeNumber.includes(10,2));//true
+console.log(includeNumber.includes(5,5));
