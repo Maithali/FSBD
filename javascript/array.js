@@ -49,5 +49,21 @@
     let arr2 = [4,5,6,7];
     let arr3 = [7,8,9,9,9,9,9,9,9,9,9];
     console.log(arr1.concat(arr2));
+//     [
+//   1, 2, 3, 4,
+//   4, 5, 6, 7
+// ]
+
     console.log(arr1.concat(arr2,arr3));
+//     [
+//   1, 2, 3, 4, 4, 5, 6,
+//   7, 7, 8, 9, 9, 9, 9,
+//   9, 9, 9, 9, 9
+// ]
     
+//fill
+let arr4 = [1,2,3,4,5,6,7,8,9];
+arr4.fill('maithali',2,4);
+console.log(arr4);//[ 1, 2, 'maithali', 'maithali', 5, 6, 7, 8, 9 ]
+arr4.fill('maithali',2,3);
+console.log(arr4);
