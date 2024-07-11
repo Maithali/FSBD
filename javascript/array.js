@@ -89,3 +89,6 @@ console.log(arr4);
 //   'blockchain'
 // ]
 
+//include
+let includeNumber = [1,2,3,4,5,6,7,8,9,10];
+console.log(includeNumber.includes(10,2));//true
