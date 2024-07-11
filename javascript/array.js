@@ -66,4 +66,12 @@ let arr4 = [1,2,3,4,5,6,7,8,9];
 arr4.fill('maithali',2,4);
 console.log(arr4);//[ 1, 2, 'maithali', 'maithali', 5, 6, 7, 8, 9 ]
 arr4.fill('maithali',2,3);
+console.log(arr4);//[ 1, 2, 'maithali', 'maithali', 5, 6, 7, 8, 9 ]
+arr4.fill('maithali',1,8);
 console.log(arr4);
+// [1,          'maithali',
+//   'maithali', 'maithali',
+//   'maithali', 'maithali',
+//   'maithali', 'maithali',
+//   9
+// ]
