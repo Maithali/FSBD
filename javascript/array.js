@@ -136,3 +136,12 @@ console.log(maths.map(Math.cbrt));
 let mathvalue = [1,4,5,16,25];
 console.log(mathvalue.pop());//25
 console.log(mathvalue);//[ 1, 4, 5, 16 ]
+
+
+//reverse
+let revMath = [11,45,98,0,23,45];
+console.log(revMath.reverse());//[ 45, 23, 0, 98, 45, 11 ]
+
+//Shift()
+let mathsShift = ['maithali',1,4,9,16,25];
+console.log(mathsShift.shift());//maithali
