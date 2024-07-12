@@ -170,3 +170,8 @@ console.log(fruits);
 //   'Emu apple',
 //   'fig'
 // ]
+
+//Converting to Array
+let nav='maithali';
+let arrayM = nav.split(' ');
+console.log(arrayM);
