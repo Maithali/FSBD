@@ -174,4 +174,7 @@ console.log(fruits);
 //Converting to Array
 let nav='maithali';
 let arrayM = nav.split(' ');
-console.log(arrayM);
+console.log(arrayM);//[ 'maithali' ]
+
+//for of
+let fruitsForOf = ['apple','berries','custurd apple','dragon fruit','Emu apple','fig'];
