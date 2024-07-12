@@ -113,3 +113,8 @@ let Arr1 = [1,12,,4,5,6,7];
 let var1 = Arr1.join('16');
 console.log(var1);//1161216164165166167
 console.log(typeof var1);//string
+
+//last indexOf
+let num2 =[1,2,3,'maithali',5,5,6,7,8,'maithali',9,10];
+console.log(num2.indexOf('maithali'));//3
+console.log(num2.indexOf(10));//11
