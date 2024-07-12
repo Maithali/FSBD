@@ -155,3 +155,7 @@ let SortNames = ['hitesh sir','mithlai','anurag sir','navin sir','sanjeevan sir'
 console.log(SortNames.reverse(SortNames.sort()));
 //[ 'sanjeevan sir', 'navin sir', 'mithlai', 
 //'hitesh sir', 'anurag sir' ]
+
+//unshift
+let fruits = ['apple','berries','custurd apple','dragon fruit','Emu apple','fig'];
+console.log(fruits.unshift('strawberry 1', 'pineapple 2'));
