@@ -134,4 +134,5 @@ console.log(maths.map(Math.cbrt));
 
 //Pop
 let mathvalue = [1,4,5,16,25];
-console.log(mathvalue.pop());
+console.log(mathvalue.pop());//25
+console.log(mathvalue);//[ 1, 4, 5, 16 ]
