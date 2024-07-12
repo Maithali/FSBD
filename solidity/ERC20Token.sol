@@ -14,14 +14,22 @@ pragma solidity ^0.8.13;
 //     }
 //}
 
-contract ERC20 {
-    string public name;
-    string public symbol;
 
-    mapping(address => uint256) public balanceOf;
+        contract ERC20 {
+            string public name;
+            string public symbol;
 
-    constructor(string memory _name, string memory _symbol) {
-        name = _name;
-        symbol = _symbol;
-    }
-}
+            mapping (address => uint256) public  balanceOf;
+            address public  owner;
+
+            constructor(string memory _name, string memory _symbol) {
+
+                name = _name;
+                
+                symbol = _symbol;
+
+                owner = msg.sender;
+            }
+            
+        }
+    
