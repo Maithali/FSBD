@@ -110,3 +110,6 @@ console.log(Array.isArray(trythis));//false
 
 //Join
 let Arr1 = [1,12,,4,5,6,7];
+let var1 = Arr1.join('16');
+console.log(var1);//1161216164165166167
+console.log(typeof var1);//string
