@@ -158,4 +158,15 @@ console.log(SortNames.reverse(SortNames.sort()));
 
 //unshift
 let fruits = ['apple','berries','custurd apple','dragon fruit','Emu apple','fig'];
-console.log(fruits.unshift('strawberry 1', 'pineapple 2'));
+console.log(fruits.unshift('strawberry 1', 'pineapple 2'));//8
+console.log(fruits);
+[
+  'strawberry 1',
+  'pineapple 2',
+  'apple',
+  'berries',
+  'custurd apple',
+  'dragon fruit',
+  'Emu apple',
+  'fig'
+]
