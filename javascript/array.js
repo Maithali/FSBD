@@ -131,3 +131,7 @@ console.log(maths.map(Math.cbrt));
 //   2.5198420997897464,
 //   2.924017738212866
 // ]
+
+//Pop
+let mathvalue = [1,4,5,16,25];
+console.log(mathvalue.pop());
