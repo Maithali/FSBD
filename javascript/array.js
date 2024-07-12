@@ -118,3 +118,16 @@ console.log(typeof var1);//string
 let num2 =[1,2,3,'maithali',5,5,6,7,8,'maithali',9,10];
 console.log(num2.indexOf('maithali'));//3
 console.log(num2.indexOf(10));//11
+
+//Map
+let maths =[1,4,9,16,25];
+console.log(maths.map(Math.sqrt));//[ 1, 2, 3, 4, 5 ]
+console.log(maths.map(Math.cbrt));
+
+// [
+//   1,
+//   1.5874010519681996,
+//   2.080083823051904,
+//   2.5198420997897464,
+//   2.924017738212866
+// ]
