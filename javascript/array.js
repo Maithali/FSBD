@@ -109,4 +109,4 @@ let trythis= 'maithali';
 console.log(Array.isArray(trythis));//false
 
 //Join
-let num =[1,2,3,4,'maithali',5,6,7,8,'maithali',9,10,11];
+let num1 =[1,2,3,4,'maithali',5,6,7,8,'maithali',9,10,11];
