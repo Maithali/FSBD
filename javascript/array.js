@@ -149,4 +149,9 @@ let noshift = [1,4,5,6,12];
 console.log(noshift.shift());//1
 
 //Sort
-let SortNames = []
+let SortNames = ['hitesh sir','mithlai','anurag sir','navin sir','sanjeevan sir'];
+ console.log(SortNames.sort());
+// [ 'anurag sir', 'hitesh sir', 'mithlai', 'navin sir', 'sanjeevan sir' ]
+console.log(SortNames.reverse(SortNames.sort()));
+//[ 'sanjeevan sir', 'navin sir', 'mithlai', 
+//'hitesh sir', 'anurag sir' ]
