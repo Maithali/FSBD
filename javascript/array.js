@@ -107,3 +107,6 @@ let numArr = [11,1,12,13,14,15,1,6,16,17,18];
 console.log(Array.isArray(numArr));//true
 let trythis= 'maithali';
 console.log(Array.isArray(trythis));//false
+
+//Join
+let num =[1,2,3,4,'maithali',5,6,7,8,'maithali',9,10,11];
