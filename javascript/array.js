@@ -148,4 +148,5 @@ console.log(mathsShift.shift());//maithali
 let noshift = [1,4,5,6,12];
 console.log(noshift.shift());//1
 
-//
+//Sort
+let SortNames = []
