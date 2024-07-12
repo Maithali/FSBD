@@ -178,3 +178,8 @@ console.log(arrayM);//[ 'maithali' ]
 
 //for of
 let fruitsForOf = ['apple','berries','custurd apple','dragon fruit','Emu apple','fig'];
+let UpperFruit = []; // empty Array
+for ( let i of fruitsForOf){
+    UpperFruit.push(i.toLocaleLowerCase())
+}
+console.log(UpperFruit);
