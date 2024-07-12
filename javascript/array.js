@@ -146,6 +146,6 @@ console.log(revMath.reverse());//[ 45, 23, 0, 98, 45, 11 ]
 let mathsShift = ['maithali',1,4,9,16,25];
 console.log(mathsShift.shift());//maithali
 let noshift = [1,4,5,6,12];
-console.log(noshift.shift());
+console.log(noshift.shift());//1
 
 //
