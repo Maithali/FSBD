@@ -20,12 +20,16 @@ contract ERC20 {
 
     mapping(address => uint256) public balanceOf;
     address public owner;
+    uint256 public decimals;
+
     uint256 public totalSupply;
 
-    constructor(string memory _name, string memory _symbol) {
+    constructor(string memory _name, string memory _symbol, uint8 decimals) {
         name = _name;
 
         symbol = _symbol;
+
+        decimals = 18;
 
         owner = msg.sender;
     }
