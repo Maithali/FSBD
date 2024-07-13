@@ -47,13 +47,18 @@ contract ERC20 {
         balanceOf[owner] += amount;
     }
 
-    function transfer(address to, uint256 amount) public returns (bool) {
-        require(balanceOf[msg.sender] >= amount, "you aint rich enough");
-        require(to != address(0), "cannot send to address zero");
-        balanceOf[msg.sender] -= amount;
-        balanceOf[to] += amount;
+    // function transfer(address to, uint256 amount) public  returns (bool){
+    //     require(balanceOf[msg.sender] >= amount , "you aint rich enough");
+    //     require(to != address(0),"cannot send to address zero");
+    //     balanceOf[msg.sender] -= amount;
+    //     balanceOf[to] += amount;
 
-        return true;
+    //     return true;
+
+    // }
+
+    function transfer(address to, uint256 amount) public returns (bool) {
+        return helperTransfer(msg.sender, to, amount);
     }
 
     function approve(address spender, uint256 amount) public returns (bool) {
@@ -61,14 +66,27 @@ contract ERC20 {
         return true;
     }
 
+    // function transferFrom(address from, address to, uint256 amount) public  returns (bool) {
+    //         require(balanceOf[from] >= amount , "not enough balance");
+    //         require(to != address(0),"Cannot send to addres(0)");
+
+    //         if (msg.sender != from) {
+    //             require(allowance[from][msg.sender] >= amount,"not enough allowance");
+
+    //             allowance[from][msg.sender] -= amount;
+    //         }
+
+    //         balanceOf[from] -= amount;
+    //         balanceOf[to] += amount;
+
+    //         return  true;
+    // }
+
     function transferFrom(
         address from,
         address to,
         uint256 amount
     ) public returns (bool) {
-        require(balanceOf[from] >= amount, "not enough balance");
-        require(to != address(0), "Cannot send to addres(0)");
-
         if (msg.sender != from) {
             require(
                 allowance[from][msg.sender] >= amount,
@@ -78,6 +96,17 @@ contract ERC20 {
             allowance[from][msg.sender] -= amount;
         }
 
+        return helperTransfer(from, to, amount);
+    }
+
+    // it's very important for this function to be internal!
+    function helperTransfer(
+        address from,
+        address to,
+        uint256 amount
+    ) internal returns (bool) {
+        require(balanceOf[from] >= amount, "not enough money");
+        require(to != address(0), "cannot send to address(0)");
         balanceOf[from] -= amount;
         balanceOf[to] += amount;
 
