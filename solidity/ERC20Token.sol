@@ -57,4 +57,20 @@ contract ERC20 {
     function approve(address spender, uint256 amount) public {
         allowance[msg.sender][spender] = amount;
     }
+
+    function transferFrom(address from, address to, uint256 amount) public {
+        require(balanceOf[from] >= amount, "not enough balance");
+
+        if (msg.sender != from) {
+            require(
+                allowance[from][msg.sender] >= amount,
+                "not enough allowance"
+            );
+
+            allowance[from][msg.sender] -= amount;
+        }
+
+        balanceOf[from] -= amount;
+        balanceOf[to] += amount;
+    }
 }
