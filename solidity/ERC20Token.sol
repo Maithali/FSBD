@@ -14,22 +14,32 @@ pragma solidity ^0.8.13;
 //     }
 //}
 
+contract ERC20 {
+    string public name;
+    string public symbol;
 
-        contract ERC20 {
-            string public name;
-            string public symbol;
+    mapping(address => uint256) public balanceOf;
+    address public owner;
+    uint256 public totalSupply;
 
-            mapping (address => uint256) public  balanceOf;
-            address public  owner;
+    constructor(string memory _name, string memory _symbol) {
+        name = _name;
 
-            constructor(string memory _name, string memory _symbol) {
+        symbol = _symbol;
 
-                name = _name;
-                
-                symbol = _symbol;
+        owner = msg.sender;
+    }
 
-                owner = msg.sender;
-            }
-            
-        }
-    
+    function mint(address to, uint256 amount) public {
+        require(msg.sender == owner, "only owner can create tokens");
+        totalSupply += amount;
+        balanceOf[owner] += amount;
+    }
+
+    function transfer(address to, uint256 amount) public {
+        require(balanceOf[msg.sender] >= amount, "you aint rich enough");
+        require(to != address(0), "cannot send to address zero");
+        balanceOf[msg.sender] -= amount;
+        balanceOf[to] += amount;
+    }
+}
