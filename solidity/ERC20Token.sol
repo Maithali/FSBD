@@ -24,9 +24,13 @@ contract ERC20 {
 
     uint256 public totalSupply;
 
+    //owner -> spender -> allowance
+    //this enables an owner to give allowance to multiple address
+    mapping(address => mapping(address => uint256)) public allowance;
+
     constructor(
         string memory _name,
-        string memory _symbol //uint8 decimals)
+        string memory _symbol //,uint8 decimals)
     ) {
         name = _name;
 
@@ -48,5 +52,9 @@ contract ERC20 {
         require(to != address(0), "cannot send to address zero");
         balanceOf[msg.sender] -= amount;
         balanceOf[to] += amount;
+    }
+
+    function approve(address spender, uint256 amount) public {
+        allowance[msg.sender][spender] = amount;
     }
 }
