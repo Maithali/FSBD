@@ -20,7 +20,7 @@ contract ERC20 {
 
     mapping(address => uint256) public balanceOf;
     address public owner;
-    uint256 public decimals;
+    uint8 public decimals;
 
     uint256 public totalSupply;
 
@@ -47,19 +47,27 @@ contract ERC20 {
         balanceOf[owner] += amount;
     }
 
-    function transfer(address to, uint256 amount) public {
+    function transfer(address to, uint256 amount) public returns (bool) {
         require(balanceOf[msg.sender] >= amount, "you aint rich enough");
         require(to != address(0), "cannot send to address zero");
         balanceOf[msg.sender] -= amount;
         balanceOf[to] += amount;
+
+        return true;
     }
 
-    function approve(address spender, uint256 amount) public {
+    function approve(address spender, uint256 amount) public returns (bool) {
         allowance[msg.sender][spender] = amount;
+        return true;
     }
 
-    function transferFrom(address from, address to, uint256 amount) public {
+    function transferFrom(
+        address from,
+        address to,
+        uint256 amount
+    ) public returns (bool) {
         require(balanceOf[from] >= amount, "not enough balance");
+        require(to != address(0), "Cannot send to addres(0)");
 
         if (msg.sender != from) {
             require(
@@ -72,5 +80,7 @@ contract ERC20 {
 
         balanceOf[from] -= amount;
         balanceOf[to] += amount;
+
+        return true;
     }
 }
