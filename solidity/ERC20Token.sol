@@ -24,7 +24,10 @@ contract ERC20 {
 
     uint256 public totalSupply;
 
-    constructor(string memory _name, string memory _symbol, uint8 decimals) {
+    constructor(
+        string memory _name,
+        string memory _symbol //uint8 decimals)
+    ) {
         name = _name;
 
         symbol = _symbol;
