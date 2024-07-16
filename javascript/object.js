@@ -12,4 +12,5 @@ const people ={
     girl:'👧🏻',
 
 }
+console.log(people);
 people.boy='👦🏽'
