@@ -6,9 +6,9 @@ const object1 = {
 console.log(object1);
 
 const people ={
-    man:'',
-    boy:'',
+    man:'🧔🏻',
+    boy:'👦🏻',
     woman:'',
     girl:'',
-    
+
 }
