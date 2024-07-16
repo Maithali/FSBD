@@ -12,3 +12,4 @@ const people ={
     girl:'👧🏻',
 
 }
+people.boy=''
