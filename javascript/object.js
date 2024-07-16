@@ -8,7 +8,7 @@ console.log(object1);
 const people ={
     man:'🧔🏻',
     boy:'👦🏻',
-    woman:'',
-    girl:'',
+    woman:'👩🏻',
+    girl:'👧🏻',
 
 }
