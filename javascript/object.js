@@ -59,3 +59,7 @@ book.redbook ='📕',
     get :() => '',
     enumerable: true
  })
+
+ console.log(obj4);
+console.log(obj4.book);
+console.log(Object.getPrototypeOf(obj4));
