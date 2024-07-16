@@ -48,3 +48,5 @@ book.redbook ='📕',
     fly : true,
     cordinate : Math.random() + 2
  }
+
+ const obj3 = Object.create(power)
