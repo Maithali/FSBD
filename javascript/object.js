@@ -67,3 +67,24 @@ book.redbook ='📕',
     for(k in obj4){
     console.log("value is: ", k);
 }
+
+
+//part 5
+const obj5 = {
+    comics : 'marvel',
+    pen: '',
+    printComic: function(){
+        this.pen += '🖊️🗒️'
+        console.log(this);
+        return this;
+    },
+    // printaComic: () => {
+    //     // this.pen += '🖊️🗒️'
+    //     console.log(this);
+
+    // },
+    
+}
+
+console.log(obj5.printComic().printComic().printComic());
+// console.log(obj5.printaComic());
