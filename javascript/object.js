@@ -4,6 +4,8 @@ const object1 = {
     plant:'☘'
 }
 console.log(object1);
+//{ rocket: '🚀', home: '🏡', plant: '☘' }
+
 
 const people ={
     man:'🧔🏻',
@@ -12,8 +14,15 @@ const people ={
     girl:'👧🏻',
 }
 console.log(people);
+// { man: '🧔🏻', boy: '👦🏻', woman: '👩🏻
+//', girl: '👧🏻' }
+
 people.boy='👦🏽'
 console.log(people);
+// { man: '🧔🏻', boy: '👦🏽', woman: '👩🏻
+// ', girl: '👧🏻' }
+
+
 people['family'] = '👨‍👧';
 console.log(people);
 // {
@@ -25,13 +34,6 @@ console.log(people);
 // }
 
 
-{ rocket: '🚀', home: '🏡', plant: '☘' }{ man: '🧔🏻', boy: '👦🏻', woman: '👩🏻
-', girl: '👧🏻' }
-{ man: '🧔🏻', boy: '👦🏽', woman: '👩🏻
-', girl: '👧🏻' }
 
 
-{ rocket: '🚀', home: '🏡', plant: '☘' }{ man: '🧔🏻', boy: '👦🏻', woman: '👩🏻
-', girl: '👧🏻' }
-{ man: '🧔🏻', boy: '👦🏽', woman: '👩🏻
-', girl: '👧🏻' }
+
