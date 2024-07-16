@@ -38,7 +38,7 @@ console.log(people);
 // part 2
 const obj2 = new Object() //constructor
 
-obj2.redbook ='',
+obj2.redbook ='📕',
  obj2.1blueBook = '',
  obj2.myValue = '1 blue book'
  console.log(obj2);
