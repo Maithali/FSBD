@@ -51,3 +51,10 @@ book.redbook ='📕',
 
  const obj3 = Object.create(power)
  console.log(power);//{ fly: true, cordinate: 2.8089675238963903 }
+
+
+ // part 4
+ const obj4 =  Object.create({})
+ Object.defineProperty(obj4, 'books',{
+    get :() => '',
+ })
