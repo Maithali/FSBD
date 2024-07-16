@@ -40,5 +40,5 @@ const obj2 = new Object() //constructor
 
 obj2.redbook ='📕',
  obj2.blueBook = '📘',
- obj2.myValue = '1 blue book'
+ obj2.myValue = '1 green book 📗'
  console.log(obj2);
