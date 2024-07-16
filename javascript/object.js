@@ -42,3 +42,9 @@ book.redbook ='📕',
  book.blueBook = '📘',
  book.myValue = '1 green book 📗'
  console.log(book);
+
+ // part 3
+ const power= {
+    fly : true,
+    cordinate : Math.random() + 2
+ }
