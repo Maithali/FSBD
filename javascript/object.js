@@ -14,4 +14,4 @@ const people ={
 console.log(people);
 people.boy='👦🏽'
 console.log(people);
-people['family'] = '';
+people['family'] = '👨‍👧';
