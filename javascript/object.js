@@ -35,5 +35,6 @@ console.log(people);
 
 
 
-
+// part 2
+const obj2 = new Object() //constructor
 
