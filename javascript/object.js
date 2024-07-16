@@ -16,3 +16,22 @@ people.boy='👦🏽'
 console.log(people);
 people['family'] = '👨‍👧';
 console.log(people);
+// {
+//   man: '🧔🏻',
+//   boy: '👦🏽',
+//   woman: '👩🏻',
+//   girl: '👧🏻',
+//   family: '👨‍👧'
+// }
+
+
+{ rocket: '🚀', home: '🏡', plant: '☘' }{ man: '🧔🏻', boy: '👦🏻', woman: '👩🏻
+', girl: '👧🏻' }
+{ man: '🧔🏻', boy: '👦🏽', woman: '👩🏻
+', girl: '👧🏻' }
+
+
+{ rocket: '🚀', home: '🏡', plant: '☘' }{ man: '🧔🏻', boy: '👦🏻', woman: '👩🏻
+', girl: '👧🏻' }
+{ man: '🧔🏻', boy: '👦🏽', woman: '👩🏻
+', girl: '👧🏻' }
