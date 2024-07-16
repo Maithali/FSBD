@@ -10,7 +10,7 @@ const people ={
     boy:'👦🏻',
     woman:'👩🏻',
     girl:'👧🏻',
-
 }
 console.log(people);
 people.boy='👦🏽'
+console.log(people);
