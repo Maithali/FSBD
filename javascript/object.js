@@ -12,4 +12,4 @@ const people ={
     girl:'👧🏻',
 
 }
-people.boy=''
+people.boy='👦🏽'
