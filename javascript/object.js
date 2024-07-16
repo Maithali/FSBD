@@ -36,9 +36,9 @@ console.log(people);
 
 
 // part 2
-const obj2 = new Object() //constructor
+const book = new Object() //constructor
 
-obj2.redbook ='📕',
- obj2.blueBook = '📘',
- obj2.myValue = '1 green book 📗'
- console.log(obj2);
+book.redbook ='📕',
+ book.blueBook = '📘',
+ book.myValue = '1 green book 📗'
+ console.log(book);
