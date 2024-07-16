@@ -4,3 +4,11 @@ const object1 = {
     plant:'☘'
 }
 console.log(object1);
+
+const people ={
+    man:'',
+    boy:'',
+    woman:'',
+    girl:'',
+    
+}
