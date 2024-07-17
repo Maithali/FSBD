@@ -19,3 +19,8 @@ Array.prototype.heyHitesh = function(){
 }
 
 myHeros.hitesh()
+
+const User = {
+    name:"top name",
+    email:"topuser@gmail.com"
+}
