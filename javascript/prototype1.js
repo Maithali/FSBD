@@ -33,8 +33,10 @@ const TeachingSupport = {
     isAvaiable: false
 }
 
-cosnt TSAssistant = {
+const TSAssistant = {
     makeAssignment: 'JS assignment',
     fullTime: true,
     __proto__: TeachingSupport
 }
+
+Teacher.__proto__ = UserObject.setPrototypeOf(TeachingSupport,Teacher)
