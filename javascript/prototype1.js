@@ -49,4 +49,7 @@ let yourname = "maithali"
 
 String.prototype.truelength = function(){
    console.log(`${this.name}`); 
+   console.log(`true length is ${this.trim().length}`);
 }
+
+let myname = "hitesh   "
