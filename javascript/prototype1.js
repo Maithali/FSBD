@@ -42,3 +42,11 @@ const TSAssistant = {
 Teacher.__proto__ = User
 
 Object.setPrototypeOf(TeachingSupport,Teacher)
+
+//Goal:get truelength of string
+
+let yourname = "maithali"
+
+String.prototype.truelength = function(){
+    
+}
