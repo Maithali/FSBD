@@ -10,3 +10,6 @@ let heropower = {
     }
 }
 
+Object.prototype.hitesh = function(){
+    console.log(`Hitesh is present in all objects`);
+}
