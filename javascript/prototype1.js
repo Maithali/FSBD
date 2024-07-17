@@ -28,3 +28,7 @@ const User = {
 const Teacher = {
     makeVideos: true
 }
+
+const TeachingSupport = {
+    isAvaiable: false
+}
