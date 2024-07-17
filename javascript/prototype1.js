@@ -9,3 +9,4 @@ let heropower = {
         console.log(`Spidy power is ${this.spiderman}`);
     }
 }
+
