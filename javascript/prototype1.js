@@ -15,5 +15,5 @@ Object.prototype.hitesh = function(){
 }
 
 Array.prototype.heyHitesh = function(){
-    
+    console.log(`Hitesh says hello`);
 }
