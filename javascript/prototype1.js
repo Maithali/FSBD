@@ -48,5 +48,5 @@ Object.setPrototypeOf(TeachingSupport,Teacher)
 let yourname = "maithali"
 
 String.prototype.truelength = function(){
-    
+   console.log(`${this.name}`); 
 }
