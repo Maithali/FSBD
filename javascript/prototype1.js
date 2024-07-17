@@ -39,4 +39,6 @@ const TSAssistant = {
     __proto__: TeachingSupport
 }
 
-Teacher.__proto__ = UserObject.setPrototypeOf(TeachingSupport,Teacher)
+Teacher.__proto__ = User
+
+Object.setPrototypeOf(TeachingSupport,Teacher)
