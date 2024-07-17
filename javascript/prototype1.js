@@ -24,3 +24,7 @@ const User = {
     name:"top name",
     email:"topuser@gmail.com"
 }
+
+const Teacher = {
+    makeVideos: true
+}
