@@ -122,3 +122,8 @@ console.log(`nullProtoObj is: ${nullProtoObj}`);//throws error: Cannot convert o
 
  normalObj.constructor;// shows "Object() { [native code] }"
  nullProtoObj.constructor;// shows "undefined"
+
+ //We can add the toString method back to the null-prototype object by assigning it one:
+
+ nullProtoObj.toString = Object.prototype.toString;
+ console.log(nullProtoObj.toString());
