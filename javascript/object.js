@@ -99,3 +99,10 @@ const objm = {
 
 objm.propertyIsEnumerable("foo");
 Object.prototype.propertyIsEnumerable.call(objm,"foo");
+
+
+//deleting a property from an object
+
+const normalObj = {};
+const nullProtoObj = Object.create(null);
+console.log(`normalObj is: ${normalObj}`);
