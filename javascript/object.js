@@ -106,11 +106,12 @@ Object.prototype.propertyIsEnumerable.call(objm,"foo");
 const normalObj = {};
 const nullProtoObj = Object.create(null);
 console.log(`normalObj is: ${normalObj}`);//normalObj is: [object Object]
-//console.log(`nullProtoObj is: ${nullProtoObj}`);//throws error: Cannot convert object to primitive value
+console.log(`nullProtoObj is: ${nullProtoObj}`);//throws error: Cannot convert object to primitive value
  alert(normalObj);
- //alert(nullProtoObj);//// throws error: Cannot convert object to primitive value
+ alert(nullProtoObj);//// throws error: Cannot convert object to primitive value
 
 
  //Other methods will fail as well
 
  normalObj.valueOf();
+ nullProtoObj.valueOf();
