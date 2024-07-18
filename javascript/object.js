@@ -128,3 +128,15 @@ console.log(`nullProtoObj is: ${nullProtoObj}`);//throws error: Cannot convert o
  nullProtoObj.toString = Object.prototype.toString;
  console.log(nullProtoObj.toString());// shows "[object Object]"
 console.log(`nullProtoObj is: ${nullProtoObj}`); // shows "nullProtoObj is: [object Object]"
+
+const ages ={maithali:18, bob: 27};
+function hasPerson(name){
+    return name in ages;
+}
+
+function getAge(name){
+    return ages[name];
+}
+
+hasPerson("hasOwnProperty");
+getAge("toString");
