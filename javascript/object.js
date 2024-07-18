@@ -115,3 +115,5 @@ console.log(`nullProtoObj is: ${nullProtoObj}`);//throws error: Cannot convert o
 
  normalObj.valueOf();
  nullProtoObj.valueOf();
+
+ normalObj.hasOwnProperty("p");
