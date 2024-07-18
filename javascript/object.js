@@ -126,4 +126,5 @@ console.log(`nullProtoObj is: ${nullProtoObj}`);//throws error: Cannot convert o
  //We can add the toString method back to the null-prototype object by assigning it one:
 
  nullProtoObj.toString = Object.prototype.toString;
- console.log(nullProtoObj.toString());
+ console.log(nullProtoObj.toString());// shows "[object Object]"
+console.log(`nullProtoObj is: ${nullProtoObj}`); // shows "nullProtoObj is: [object Object]"
