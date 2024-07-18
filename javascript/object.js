@@ -97,5 +97,5 @@ const objm = {
     },
 };
 
-obj.propertyIsEnumerable("foo");
+objm.propertyIsEnumerable("foo");
 Object.prototype.propertyIsEnumerable.call(objm,"foo");
