@@ -88,3 +88,14 @@ const obj5 = {
 
 console.log(obj5.printComic().printComic().printComic());
 // console.log(obj5.printaComic());
+
+
+const objm = {
+    foo: 1,
+    propertyIsEnumerable(){
+        return false;
+    },
+};
+
+obj.propertyIsEnumerable("foo");
+Object.prototype.propertyIsEnumerable.call(objm,"foo");
