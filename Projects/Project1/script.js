@@ -4,7 +4,7 @@ const randomColor = () =>{
     let val = '0123456789ABCDEF';
     let val1 = '#';
 
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 6; i++) {
         val1 = val1 + val[Math.floor(Math.random() * 16)];
         
     }

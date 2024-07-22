@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #181919;
+    color: aliceblue;
+}
