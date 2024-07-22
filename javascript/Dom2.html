@@ -34,6 +34,17 @@
       title.textContent = "I am Maithali learing  How to create new Element";
       console.log(title);
       document.body.appendChild(title);
+
+      // For Loop
+
+      for (let i = 0; i < 4; i++) {
+        let para = document.createElement("p");
+        para.className = "FSJS";
+        para.style.fontSize = "16px";
+        console.log(para);
+        para.textContent = i;
+        document.body.appendChild(para);
+      }
     </script>
   </body>
 </html>
