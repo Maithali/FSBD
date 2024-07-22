@@ -12,3 +12,30 @@ function b() {
 }
 
 b();
+
+// mini Program
+const callback = (n) =>{
+    return n ** 2;
+};
+
+function cube(callback, n) {
+    return callback(n) * n;
+    
+}
+console.log(cube(callback,3));
+
+//For Each
+const arr = ['hey','hi','hello','hola','namaste'];
+arr.forEach((greet) => {
+    console.log(greet);
+});
+arr.forEach(myfunc);
+function myfunc(val) {
+    console.log(val);
+}
+
+
+//SetTimeout
+setTimeout(()=>{
+    console.log("hello maithali");
+},1000);
