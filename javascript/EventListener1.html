@@ -8,5 +8,11 @@
   <body>
     <h1>learing event Listener</h1>
     <p id="js">Event Listener</p>
+    <script>
+      document.addEventListener("dblclick", hello);
+      function hello() {
+        document.getElementById("js").innerText = "Mouse Clicked";
+      }
+    </script>
   </body>
 </html>
