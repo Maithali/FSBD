@@ -39,3 +39,8 @@ function myfunc(val) {
 setTimeout(()=>{
     console.log("hello maithali");
 },1000);
+
+//setInterval
+setInterval(()=>{
+    console.log("keep it up");
+},5000);
