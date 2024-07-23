@@ -53,3 +53,6 @@ console.log(numSqu);
 
 
 //filter
+
+const count =["India","Brussel","Turkey","Normway","Luxmberg","Ireland","Finland","Germany","England"];
+const store = count.filter((val)=> val.includes("r","land"));
