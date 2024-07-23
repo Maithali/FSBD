@@ -44,3 +44,12 @@ setTimeout(()=>{
 setInterval(()=>{
     console.log("keep it up");
 },5000);
+
+
+//map
+const numbers = [1,2,3,4,6];
+const numSqu = numbers.map((num)=> num*num);
+console.log(numSqu);
+
+
+//filter
