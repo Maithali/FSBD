@@ -55,4 +55,15 @@ console.log(numSqu);
 //filter
 
 const count =["India","Brussel","Turkey","Normway","Luxmberg","Ireland","Finland","Germany","England"];
-const store = count.filter((val)=> val.includes("r","land"));
+const store = count.filter((val)=> val.includes("r"));
+console.log(store);
+
+//Reduce
+const num = [1,2,3,4,5,6,7];
+const sum = num.reduce((acc,curr)=> acc + curr, 1);
+console.log(sum);
+
+
+//sort
+const names = ['anurag','anirudh','hitesh sir','vyom','bishal','mayur','snehal','momin','surya'];
+console.log(names.sort());
