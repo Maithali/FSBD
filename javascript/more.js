@@ -32,3 +32,8 @@ try {
 } finally{
     console.log("I will run");
 }
+
+
+const userone = () =>{
+    console.log("i am one");
+}
