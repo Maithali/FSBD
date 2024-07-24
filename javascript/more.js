@@ -19,4 +19,16 @@ function sum(...args) {
     return sum;
 }
 
-console.log(sum(1,2,3,4,5));
+console.log(sum(1,2,3,4,5));//[ 1, 2, 3, 4, 5 ]    15
+
+// Try and Catch
+
+try {
+    let firstname = "maihali";
+    console.log(firstname);
+} catch (error) {
+    console.log("variable name missing");
+    
+} finally{
+    console.log("I will run");
+}
