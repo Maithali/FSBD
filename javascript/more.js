@@ -44,5 +44,11 @@ const userTwo = () =>{
     }, 3000);
 }
 
+const userthree = () => {
+  console.log("hello three");
+};
+
+
 userone();
 userTwo();
+userthree();
