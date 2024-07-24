@@ -37,3 +37,9 @@ try {
 const userone = () =>{
     console.log("i am one");
 }
+userone();
+const userTwo = () =>{
+    setTimeout(() => {
+        console.log('i am user two');
+    }, 3000);
+}
