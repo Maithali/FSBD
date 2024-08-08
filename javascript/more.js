@@ -52,3 +52,20 @@ const userthree = () => {
 userone();
 userTwo();
 userthree();
+
+
+//promise
+
+const one1 =()=>{
+    return "indexpage";
+}
+const two = () =>{
+    return new Promise ((resolve,rejct)=>{
+        setTimeout(()=>{
+            resolve("Credential correct");
+        },3000);
+
+
+        
+    })
+}
