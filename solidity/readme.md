@@ -7,35 +7,6 @@
 [Example Contract](./ExampleContract.sol)
 [Arithmetic](./Arithematic.sol)
 
-```solidity I'm tab B
-contract ExampleContract {
-    function getANumber() public pure returns (uint256) {
-        uint256 x = 1;
-        return x;
-    }
-
-    function getABoolean() public pure returns (bool) {
-        bool y = true;
-        return y;
-    }
-
-    function getAnAddress() public pure returns (address) {
-        //Vitalik Buterin's address
-        address z = 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045;
-        return z;
-    }
-
-    function getAnotherAddress() public pure returns (address) {
-        // address of the USDC stablecoin
-        address z2 = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
-        return z2;
-    }
-}
-
-```
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+[SimpleStorage Smart Contract](./SimpleStorage.sol)
+![Transcations](./output/screencapture-sepolia-etherscan-io-tx-0x1646ef7462295e8275b92fe9c60fb37d57d9931868372818fad95325652312b3-2024-08-08-14_23_42.png)
+![](./output/simpleStorage1.png)
