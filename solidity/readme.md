@@ -26,10 +26,10 @@
 []()|
 []()|
 []()|
-[]()|
-[]()|
-[]()|
-[]()|
+[SimpleStorage](./SimpleStorage.sol)|
+[StorageVariable](./StorageVariable.sol)|
+[String](./String.sol)|
+[SumOf1To99](./sumOf1to99.sol)|
 [Trackdept](./Trackdept.sol)|
 [unchecked](./unchecked.sol) |
 [whoami](./whoami.sol) |
