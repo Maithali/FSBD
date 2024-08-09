@@ -17,3 +17,9 @@ The :active CSS pseudo-class represents an element (such as a button) that is be
 
 [Active.html](./active.html)
 ![Output](./images/activelink.png)
+
+## CSS border radius
+
+The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make
+![Output](./images/bradius.png)
+[BorderRadius.html](./border-radius.html)
