@@ -17,7 +17,9 @@ Its a blend of all the above things, i have learned and practice, applying all t
 ## SOLIDITY &#9989;
 
 Course: Solidity & Smart Contract Developmnet
+
 Example Contracts⚡⚡
+
 |[contracts](./solidity/readme.md)|
 
 ## HTML
