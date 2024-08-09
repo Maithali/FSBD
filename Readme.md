@@ -13,12 +13,12 @@ CSS styling
 ## TAILWINDCSS
 
 tailwindcss styling
-|[CSS Files](./CSS/readme.md)|
+|[CSS Files](./tailwind/readme.md)|
 
 ## SOLIDITY
 
 Example Contract
-|[contracts](./CSS/readme.md)|
+|[contracts](./solidity/.readme.md)|
 
 ## PROJECTS
 
