@@ -14,6 +14,11 @@ Its a blend of all the above things, i have learned and practice, applying all t
 | --------------------------------- |
 | [Test-site](./Projects/readme.md) |
 
+## SOLIDITY
+
+Example Contracts⚡⚡
+|[contracts](./solidity/readme.md)|
+
 ## HTML
 
 BASIC TAGS OF HTML->
@@ -36,8 +41,3 @@ tailwindcss styling
 
 javascript basics
 |[JS Files](./javascript/readme.md)|
-
-## SOLIDITY
-
-Example Contracts⚡⚡
-|[contracts](./solidity/readme.md)|

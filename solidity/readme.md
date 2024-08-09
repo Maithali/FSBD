@@ -4,6 +4,10 @@
 
 ![Example Contract](./output/eg1solidity.PNG)
 
+### Smart Contracts
+
+|[Add.sol](./Add.sol)|
+
 [Example Contract](./ExampleContract.sol)
 [Arithmetic](./Arithematic.sol)
 
