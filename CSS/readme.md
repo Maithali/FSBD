@@ -32,3 +32,9 @@ To select elements with a specific class, write a period (.) character, followed
 
 ![OutputClass](./images/class.png)
 [Class](./class.html)
+
+## Css Element-Selector
+
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+![OutputElement](./images/element.png)
+[Element.html](./element-selector.html)
