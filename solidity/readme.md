@@ -1,8 +1,8 @@
-# All Solidity Learning
+# Course: Solidity & Smart Contract Developmnet
 
-## getting familar with solidity
+## getting familar with solidity 👩‍💻
 
-### Smart Contracts
+### 💻 Smart Contracts
 
 |[Arithmetic](./Arithematic.sol) |
 [ArrayTypes](./ArrayTypes.sol) |
@@ -34,3 +34,13 @@
 []()|
 []()|
 []()|
+
+# Solidity 101 Section 1: Simple Storage
+
+⭐️ Welcome to Remix - Simple Storage
+
+💻 [Code](./SimpleStorage.sol)
+
+# Solidity 101 Section 2 | Remix Storage Factory
+
+💻 Code:
