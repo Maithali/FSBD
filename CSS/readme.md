@@ -23,3 +23,12 @@ The :active CSS pseudo-class represents an element (such as a button) that is be
 The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make
 ![Output](./images/bradius.png)
 [BorderRadius.html](./border-radius.html)
+
+## Css Class
+
+The .class selector selects elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the name of the class.
+
+![OutputClass](./images/class.png)
+[Class](./class.html)
