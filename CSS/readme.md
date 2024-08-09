@@ -41,12 +41,7 @@ CSS selectors are used to "find" (or select) the HTML elements you want to style
 
 # CSS Position Fixed
 
-Fixed positioning is similar to absolute positioning, with the exception that the element's containing block is the
-initial containing block established by the viewport, unless any ancestor has transform, perspective, or filter property
-set to something other than none (see CSS Transforms Spec), which then causes that ancestor to take the place of the
-elements containing block. This can be used to create a "floating" element that stays in the same position regardless of
-scrolling. In the example below, box "One" is fixed at 80 pixels from the top of the page and 10 pixels from the left.
-Even after scrolling, it remains in the same place relative to the viewport. Also, when the will-change property is set
-to transform, a new containing block is established.
+Fixed positioning is similar to absolute positioning, This can be used to create a "floating" element that stays in the same position regardless of
+scrolling. .
 ![Fixed](./images/fixedposition.png)
 [OutputFirst-css.html](./first-css-index.html)
