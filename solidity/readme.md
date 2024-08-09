@@ -44,3 +44,18 @@
 # Solidity 101 Section 2 | Remix Storage Factory
 
 💻 Code:https://github.com/Maithali/FSBD/tree/fb4a6bac0dbff849c1c9a220b8f8c47378211cf8/solidity/remix-storage-factory-cu
+
+## Basic Solidity: Importing Contracts into other Contracts
+
+_Importing Contracts into other Contracts_
+
+- Composibility
+- Solidity new Keyword
+- Importing Code in solidity
+
+## Basic Solidity: Interacting with other Contracts
+
+📰 _Interacting with other Contracts_
+
+- Inheritance
+- Override & Virtual Keyword
