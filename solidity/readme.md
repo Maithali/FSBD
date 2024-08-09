@@ -20,12 +20,9 @@
 [Mapping.sol](./Mapping.sol)|
 [MaxMin.sol](./MaxMin.sol)|
 [MultipleOFTen](./MultipleofTen.sol)|
-[]()|
-[]()|
-[]()|
-[]()|
-[]()|
-[]()|
+[NestedArray](./NestedArray.sol)|
+[NestedMapping](./NestedMapping.sol)|
+[ReturnRevert](./ReturnRevert.sol)|
 [SimpleStorage](./SimpleStorage.sol)|
 [StorageVariable](./StorageVariable.sol)|
 [String](./String.sol)|
@@ -33,5 +30,7 @@
 [Trackdept](./Trackdept.sol)|
 [unchecked](./unchecked.sol) |
 [whoami](./whoami.sol) |
-
-[SimpleStorage Smart Contract Deployed on testnet](./SimpleStorage.sol)
+[SimpleStorage Smart Contract Deployed on testnet](./SimpleStorage.sol)|
+[]()|
+[]()|
+[]()|
