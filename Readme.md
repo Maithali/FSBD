@@ -18,7 +18,7 @@ tailwindcss styling
 ## SOLIDITY
 
 Example Contract
-|[contracts](./solidity/.readme.md)|
+|[contracts](./solidity/readme.md)|
 
 ## PROJECTS
 
