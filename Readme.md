@@ -1,15 +1,14 @@
-# FULL STACK BLOCKCHAIN DEVELOPMENT
+# FULL STACK BLOCKCHAIN DEVELOPMENT&#9989;
 
-Blockchain Developer, Smart Contract, & Solidity Career Path - Powered By AI - Beginner to Expert Course
-| Foundry Edition 2024 |
+Full Stack Blockchain Development, dedicated learning from |html|css| tailwind|javascript to solidity|📈blockchain basic to advance concepts
 
-# Table Of Content
+# ◉ Table Of Content
 
 |HTML [HTML Files](./HTML/readme.md) |Css [CSS Files](./CSS/readme.md) |Tailwind [CSS Files](./tailwind/readme.md) |Javascript [JS Files](./javascript/readme.md) |Solidity [SOL Files](./solidity/readme.md) |
 
-## PROJECTS
+## PROJECTS 🎯
 
-Its a blend of all the above things, i have learned and practice, applying all the knowledge in making these small projects,happy to show my small wins.
+Its a blend of all the above things, i have learned and practice, applying all the knowledge in making these small projects 🏗, happy to show my small wins.
 
 | Project                           |
 | --------------------------------- |
@@ -40,5 +39,5 @@ javascript basics
 
 ## SOLIDITY
 
-Example Contract
+Example Contracts⚡⚡
 |[contracts](./solidity/readme.md)|
