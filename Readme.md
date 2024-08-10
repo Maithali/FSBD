@@ -4,7 +4,7 @@ Full Stack Blockchain Development, dedicated learning from |html|css| tailwind|j
 
 # ◉ Table Of Content
 
-|HTML [HTML Files](./HTML/readme.md) |Css [CSS Files](./CSS/readme.md) |Tailwind [CSS Files](./tailwind/readme.md) |Javascript [JS Files](./javascript/readme.md) |Solidity [SOL Files](./solidity/readme.md) |
+|[HTML](./HTML/readme.md) |[CSS](./CSS/readme.md) |[TAILWIND](./tailwind/readme.md) | [Javascript](./javascript/readme.md) | [Solidity](./solidity/readme.md) |
 
 ## PROJECTS 🎯
 
