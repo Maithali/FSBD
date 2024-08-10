@@ -59,3 +59,7 @@ _Importing Contracts into other Contracts_
 
 - Inheritance
 - Override & Virtual Keyword
+
+# Solidity 101 Section 3: Remix Fund Me
+
+💻 Code:
