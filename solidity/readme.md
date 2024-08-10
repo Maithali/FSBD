@@ -85,3 +85,5 @@ We want `FundMe` to perform the following tasks:
 - msg.value & Other global keywords (https://docs.soliditylang.org/en/latest/cheatsheet.html#global-variables)
 
 - [require](https://codedamn.com/news/solidity/what-is-require-in-solidity)
+
+- revert (https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e)
