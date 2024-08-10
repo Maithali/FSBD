@@ -24,6 +24,11 @@ Example Contracts⚡⚡
 
 ## 👀❗**IMPORTANT**
 
+- [Notes](./Important/readme.md)
+
+- Links
+  - [Eth-Converter](https://eth-converter.com/)
+
 ## HTML
 
 BASIC TAGS OF HTML->
