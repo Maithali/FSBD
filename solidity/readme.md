@@ -79,3 +79,9 @@ We want `FundMe` to perform the following tasks:
 - Fields in a Transaction(https://ethereum.org/en/developers/docs/transactions/)
 
 - More on v,r,s(https://ethereum.stackexchange.com/questions/15766/what-does-v-r-s-in-eth-gettransactionbyhash-mean)
+
+- payable (https://solidity-by-example.org/payable/)
+
+- msg.value & Other global keywords (https://docs.soliditylang.org/en/latest/cheatsheet.html#global-variables)
+
+- [require](https://codedamn.com/news/solidity/what-is-require-in-solidity)
