@@ -5,6 +5,7 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 
 contract FundMe {
     uint256 public minimumUsd = 5e18;
+    address[] public funders;
 
     function fund() public payable {
         // allow users to send $
@@ -14,6 +15,7 @@ contract FundMe {
             getConvertionRate(msg.value) >= minimumUsd,
             "Didn't send enough ETH"
         ); //if the condition is false, revert with the error message
+        funders.push(msg.sender);
     }
 
     function getPrice() public view returns (uint256) {
