@@ -13,7 +13,7 @@ Its a blend of all the above things, i have learned and practice, applying all t
 |                                        | Project |                                        |
 | -------------------------------------- | ------- | -------------------------------------- |
 | [Test-site](./Projects/readme.md)      |         | [TO-DO-LIST-App](./Projects/readme.md) |
-| [Weather-App](./Projects/readme.md)    |         | [Weather-App](./Projects/readme.md)    |
+| [Weather-App](./Projects/readme.md)    |         | [Quiz-App](./Projects/readme.md)       |
 | [TO-DO-LIST-App](./Projects/readme.md) |         | [Weather-App](./Projects/readme.md)    |
 
 ## SOLIDITY &#9989;
