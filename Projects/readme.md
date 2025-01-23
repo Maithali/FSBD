@@ -10,5 +10,6 @@ wanna try click the link above?
 
 ### Weather-App
 
-2.**Weather-App** [Click Here ](https://maithali-weather-app.netlify.app/)
- 3.**TO-DO-LIST APP**[Click Here ](https://maithali-to-do-list-app.netlify.app/)
+2.**Weather-App** [Click Here ](https://maithali-weather-app.netlify.app/) 3.**TO-DO-LIST APP**[Click Here ](https://maithali-to-do-list-app.netlify.app/)
+
+4.**QUIZ-APP**[Click Here](https://maithali-quiz-app.netlify.app/)
