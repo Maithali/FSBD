@@ -10,11 +10,11 @@ Full Stack Blockchain Development, dedicated learning from |html|css| tailwind|j
 
 Its a blend of all the above things, i have learned and practice, applying all the knowledge in making these small projects 🏗, happy to show my small wins.
 
-|                                        | Project |                                        |
-| -------------------------------------- | ------- | -------------------------------------- |
-| [Test-site](./Projects/readme.md)      |         | [TO-DO-LIST-App](./Projects/readme.md) |
-| [Weather-App](./Projects/readme.md)    |         | [Quiz-App](./Projects/readme.md)       |
-| [TO-DO-LIST-App](./Projects/readme.md) |         | [Weather-App](./Projects/readme.md)    |
+|                                        | Project |                                                   |
+| -------------------------------------- | ------- | ------------------------------------------------- |
+| [Test-site](./Projects/readme.md)      |         | [Random-Password-Generator](./Projects/readme.md) |
+| [Weather-App](./Projects/readme.md)    |         | [Quiz-App](./Projects/readme.md)                  |
+| [TO-DO-LIST-App](./Projects/readme.md) |         | [Weather-App](./Projects/readme.md)               |
 
 ## SOLIDITY &#9989;
 
