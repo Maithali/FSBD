@@ -9,6 +9,7 @@ By clicking on the image it changes, and if you want to change user, you can ent
 wanna try click the link above?
 
 ### Weather-App
+1.**HearingAndSpeechRecognition** [Website Link](https://dapp-hearing-speech-records.vercel.app/)
 
 2.**Weather-App** [Click Here ](https://maithali-weather-app.netlify.app/)
 
